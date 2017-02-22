@@ -1,6 +1,6 @@
 import React from 'react'
-import HelloK from './hellok'
-
+import Hello from '../question1'
+import Kitty from '../question2'
 
 export default () => <div>
 			<Hello />
