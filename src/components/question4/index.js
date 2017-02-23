@@ -1,8 +1,7 @@
 import React from 'react'
-
+import Person from './person'
 export default () => <div>
-                      <p>Name: John</p>
-                      <p>Age: 20</p>
+                      <Person />
 		     </div>
 
 
