@@ -9,8 +9,9 @@ import Propson from './components/question5'
 import Adder from './components/question6'
 import Lister from './components/question7'
 import Even from './components/question8'
+import Bold from './components/question9'
 export const routes = [
-  { path: 'question1', component: Question1 }, { path: 'question2', component: Question2 }, { path: 'question3', component: HelloK }, { path: 'question4', component: Person }, { path: 'question5', component: Propson }, { path: 'question6', component: Adder }, { path: 'question7', component: Lister }, { path: 'question8', component: Even }
+  { path: 'question1', component: Question1 }, { path: 'question2', component: Question2 }, { path: 'question3', component: HelloK }, { path: 'question4', component: Person }, { path: 'question5', component: Propson }, { path: 'question6', component: Adder }, { path: 'question7', component: Lister }, { path: 'question8', component: Even }, { path: 'question9', component: Bold }
 ]
 
 export default {
