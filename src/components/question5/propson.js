@@ -4,13 +4,13 @@ import React from 'react';
 
 export default class Propson extends React.Component {
   render () {
-    const { name, age } = this.props;
-
     return (
       <div>
-        <p>Name: {name}</p>
-        <p>Age: {age}</p>
+       <p>name: { this.props.person.name }</p>
+       <p>age: { this.props.person.age }</p>
       </div>
     );
   }
 }
+
+ 

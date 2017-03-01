@@ -1,8 +1,13 @@
 import React from 'react'
-import Person from '../question4/person'
+import Propson from '../question5/propson'
 export default class Company extends React.Component {
  render () {
- return Company={name: 'ZDEV'} 
-return Employees= <Person />
+ return (  <div>
+	<p>Company: { this.props.name }</p>
+	
+    <p>Employees: { this.props.person }</p>
+       
+</div>
+);
 }
 }
