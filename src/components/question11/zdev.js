@@ -6,7 +6,7 @@ export default class Company extends React.Component {
 
 
 
-const x = _.map(this.props.Employees, (employee) => <Propson person={ employee } />)
+const x = _.map(this.props.Employees, (employee, i) => <Propson key={ i } person={ employee } />)
  return (  <div>
     <p>Company: { this.props.name }</p>
     
@@ -16,3 +16,4 @@ const x = _.map(this.props.Employees, (employee) => <Propson person={ employee }
 );
 }
 }
+
