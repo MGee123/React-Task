@@ -1,8 +1,6 @@
 import React from 'react'
-import Text from './text'
+import Button from './text'
 
-export default () => 
-
-<p style={{color: 'pink'}}>Hello There!</p>
-
+export default () =>
+<Button  />
 
