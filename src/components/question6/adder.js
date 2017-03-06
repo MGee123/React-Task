@@ -1,12 +1,11 @@
 import React from 'react'
 
 export default class Adder extends React.Component {
-render () {
-return (
+  render() {
+    return (
 
-<p>{this.props.number1} + {this.props.number2} = {this.props.number1 + this.props.number2}</p>
-);
+      <p>{this.props.number1} + {this.props.number2} = {this.props.number1 + this.props.number2}</p>
+    )
+  }
 }
-}
-
 

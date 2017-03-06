@@ -1,11 +1,12 @@
 import React from 'react'
 
-export default class Button extends React.Component {
- render () {
-return <div>
-<text style={{color: 'pink'}}>Hello There!</text>
-<button onClick={() => console.log('Hello World')} name='button'>ez</button>
-</div>
-}
+export default class Text extends React.Component {
+  render() {
+    console.log(this.props)
+    return (
+
+      <p style={this.props.style}>{this.props.children}</p>
+    )
+  }
 }
 

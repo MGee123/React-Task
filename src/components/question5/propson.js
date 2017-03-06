@@ -1,16 +1,15 @@
 
 
-import React from 'react';
+import React from 'react'
 
 export default class Propson extends React.Component {
-  render () {
+  render() {
     return (
       <div>
-       <p>name: { this.props.person.name }</p>
-       <p>age: { this.props.person.age }</p>
+        <p>name: { this.props.person.name }</p>
+        <p>age: { this.props.person.age }</p>
       </div>
-    );
+    )
   }
 }
 
- 
