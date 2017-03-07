@@ -8,7 +8,7 @@ this.state = {index: 0}
 }
 
 render() {
-const list = [{this.props.names}]
+const list = this.props.names
 
 return (
 <div>
