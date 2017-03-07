@@ -1,3 +1,3 @@
 import React from 'react' 
 import Namer from './nextname'
-export default () => <Namer />
+export default () => <Namer names={['Richard', 'john', 'matthew', 'alex', 'rob']} />
