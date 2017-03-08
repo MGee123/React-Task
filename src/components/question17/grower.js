@@ -8,12 +8,11 @@ this.state = {height: 20}
 render() {
 
 return (
-<div>
-<div id="bigdiv" style={{width: "50px", height: this.state.height + "px", backgroundColor: "red"}}></div> 
+<div id="bigdiv" style={{width: '100%', height: this.state.height, backgroundColor: "red"}}> 
 
-<div>
-<button onClick={() => { this.setState( {this.state.height + 20 });}>Grow!</button>
+<button onClick={() => { this.setState( {height: this.state.height + 20 });}}>Grow!</button>
 </div>
+
 )
 }
 }
